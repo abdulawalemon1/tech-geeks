@@ -8,6 +8,7 @@ const Blog = ({ blog }) => {
   const { imageURL, title, blog: blogBody, admin, _id } = blog;
   return (
     <div className='blog-container'>
+
       <div className='blog-image-container'>
         <img src={imageURL} alt='' />
       </div>

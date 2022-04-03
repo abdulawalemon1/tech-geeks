@@ -1,13 +1,13 @@
 import React from "react";
 
 import "./BlogDetails.css";
-import { BsChevronLeft } from "react-icons/bs";
+// import { BsChevronLeft } from "react-icons/bs";
 
 const BlogDetails = () => {
   return (
     <>
       <div className='header-gradient' />
-
+      <h1>This is blog Detail</h1>
       {/* <div>
         <button className='back-button'>
           <BsChevronLeft />
